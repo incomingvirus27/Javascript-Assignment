@@ -7,6 +7,6 @@ for (var counter = 20; counter <= 100; counter++) {
         }
     }
     if (notPrime === false) {
-                document.write(counter+ "<br>");
+              document.write(counter+ "<br>");
     }
 }

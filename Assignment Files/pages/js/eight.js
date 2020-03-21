@@ -7,7 +7,7 @@ var result=true;
 
         if ((year % 4 == 0) && (year % 100 != 0)||(year % 400 == 0)) {
             result = true;
-            document.write(year+ "<br>");
+           document.write(year+ "<br>");
             year++;
             counter--;
         } 
